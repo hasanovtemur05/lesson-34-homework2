@@ -1,0 +1,56 @@
+.hero{
+    &__title{
+        font-size: 28px;
+        color: white;
+    }
+    &__desc{
+        padding: 20px 0px;
+        font-size: 16px;
+        color: white;
+    }
+    &__input{
+        width: 100%;
+        border-radius: 20px;
+        padding: 15px 25px;
+        background-color: transparent;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        input{
+            width: 80%;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: white;
+        }
+      
+    }
+    .tabs{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .tab{
+            font-size: 16px;
+            color: white;
+            padding: 20px 0px;
+        }
+    }
+}
+@media (min-width:1000px){
+    .hero{
+        &__title{
+            padding: 20px 0px;
+            font-size: 38px;
+        }
+        &__desc{
+            padding: 20px 0px;
+            font-size: 16px;
+        }
+        &__input{
+            margin: 20px 0px;
+        }
+    }
+}
